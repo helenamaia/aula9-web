@@ -28,3 +28,16 @@ console.log(variosBotoes[2]);
 for(const botao of variosBotoes){
     console.log(botao);
 }
+
+const botaoMudar = document.querySelector('.botao-mudar');
+console.log(botaoMudar.textContent);
+
+botaoMudar.textContent = 'Agora eu mudei o texto';
+
+const paragrafo = document.querySelector('p');
+console.log(paragrafo.innerHTML);
+
+paragrafo.innerHTML = `<strong>${paragrafo.innerHTML}</strong>`;
+
+console.log(paragrafo.innerHTML);
+console.log(paragrafo.textContent);
