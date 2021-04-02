@@ -72,3 +72,5 @@ checkAssinar.checked = !checkAssinar.checked;
 console.log(checkAssinar.checked);
 
 
+
+
