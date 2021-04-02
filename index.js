@@ -17,3 +17,14 @@ console.log(botaoPrincipal);
 
 const lista = document.querySelector('ul');
 console.log(lista);
+
+const botaoVarios = document.querySelector('.botao-varios');
+console.log(botaoVarios);
+
+const variosBotoes = document.querySelectorAll('.botao-varios');
+console.log(variosBotoes);
+console.log(variosBotoes[2]);
+
+for(const botao of variosBotoes){
+    console.log(botao);
+}
