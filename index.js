@@ -60,3 +60,15 @@ botaoAumentar.classList.remove('teste');
 console.log(botaoAumentar.classList);
 
 
+const inputNome = document.querySelector('#nome');
+console.log(inputNome.value);
+inputNome.value= `${inputNome.value}!!!!!!`;
+
+const checkAssinar = document.querySelector('#assinar');
+console.log(checkAssinar.checked);
+
+checkAssinar.checked = !checkAssinar.checked;
+
+console.log(checkAssinar.checked);
+
+
