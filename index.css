@@ -5,3 +5,11 @@
 .botao-principal{
     background-color: coral;
 }
+
+.grande{
+    font-size: 300%;
+}
+.colorida{
+    color: blue;
+    background-color: aqua;
+}

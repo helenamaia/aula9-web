@@ -41,3 +41,22 @@ paragrafo.innerHTML = `<strong>${paragrafo.innerHTML}</strong>`;
 
 console.log(paragrafo.innerHTML);
 console.log(paragrafo.textContent);
+
+const botaoEstilizar = document.querySelector('.botao-estilizado');
+
+botaoEstilizar.style.backgroundColor = 'green';
+botaoEstilizar.style.fontSize = '200%';
+
+const botaoAumentar = document.querySelector('#botao-aumentar');
+botaoAumentar.classList.add('grande');
+botaoAumentar.classList.add('colorida');
+
+botaoAumentar.classList.add('teste');
+
+console.log(botaoAumentar.classList);
+
+botaoAumentar.classList.remove('teste');
+
+console.log(botaoAumentar.classList);
+
+
